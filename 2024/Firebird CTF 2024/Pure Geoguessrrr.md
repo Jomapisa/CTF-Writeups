@@ -10,7 +10,7 @@ Attachment: [pure-geoguesserrr.txt](https://github.com/Jomapisa/CTF-Writeups/blo
 
 ## Writeup
 
-From the challenge name I assumed the codes were related to some geographical data, but couldn't find anything. However, "i came across something on the streets" suggests it could be something specific to Hong Kong. After some trial and error I found this database: https://portal.csdi.gov.hk/geoportal/#metadataInfoPanel containing the location of lamp posts.
+From the challenge name I assumed the codes were related to some geographical data, and "i came across something on the streets" suggests it could be something specific to Hong Kong. After some trial and error I found this database: https://portal.csdi.gov.hk/geoportal/#metadataInfoPanel containing the location of lamp posts.
 
 We can see that the codes match some values in the LAMP_NO column, so I used pandas to filter the dataset.
 
