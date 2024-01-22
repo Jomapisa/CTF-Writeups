@@ -32,7 +32,7 @@ df1.to_csv("coords.csv")
 
 Then I imported the csv into google earth. The points seemed to make characters when connected to each other, so I used this website https://www.gpsvisualizer.com/map_input?form=googleearth to turn the csv into a KML file. Opening it in google earth we can find the flag.
 
-! [flag screenshot]([https://github.com/](https://github.com/Jomapisa/CTF-Writeups/blob/dc53285f1af08aaf5c39ebb5c5a79a8677f54aa4/2024/Firebird%20CTF%202024/flag%20screenshot.png)
+![flag screenshot]([https://github.com/](https://github.com/Jomapisa/CTF-Writeups/blob/dc53285f1af08aaf5c39ebb5c5a79a8677f54aa4/2024/Firebird%20CTF%202024/flag%20screenshot.png)
 
 firebird{LAMP_POSTS_ARE_USEFUL}
 
