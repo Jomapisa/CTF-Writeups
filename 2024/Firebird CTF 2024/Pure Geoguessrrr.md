@@ -1,13 +1,13 @@
-#Pure Geoguessrrr
+# Pure Geoguessrrr
 
-##Challenge
+## Challenge
 
 i dont like geoguessers because it's too complicated for me. (i have a terrible sense of direction plz help) Fortunately i came across something on the streets and found this piece of paper. ^_^
 Attachment: [challenge attachment](https://github.com)
 
 (PS: u need to add 'firebird{}' after solving and all characters are upper-case alphabets with underscores :D )
 
-##Writeup
+## Writeup
 
 From the challenge name I assumed the codes were related to some geographical data, but couldn't find anything. However, "i came across something on the streets" suggests it could be something specific to Hong Kong. After some trial and error I found this database: https://portal.csdi.gov.hk/geoportal/#metadataInfoPanel containing the location of lamp posts.
 
