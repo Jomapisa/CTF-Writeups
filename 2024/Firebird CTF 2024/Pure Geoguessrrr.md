@@ -4,7 +4,7 @@
 
 i dont like geoguessers because it's too complicated for me. (i have a terrible sense of direction plz help) Fortunately i came across something on the streets and found this piece of paper. ^_^
 
-Attachment: [pure-geoguesserrr.txt](https://github.com](https://github.com/Jomapisa/CTF-Writeups/blob/dc53285f1af08aaf5c39ebb5c5a79a8677f54aa4/2024/Firebird%20CTF%202024/pure-geoguesserrr.txt)
+Attachment: [pure-geoguesserrr.txt](https://github.com/Jomapisa/CTF-Writeups/blob/dc53285f1af08aaf5c39ebb5c5a79a8677f54aa4/2024/Firebird%20CTF%202024/pure-geoguesserrr.txt)
 
 (PS: u need to add 'firebird{}' after solving and all characters are upper-case alphabets with underscores :D )
 
