@@ -10,28 +10,35 @@ Points: 250
 
 ---
 In this challenge we are given an exe file
+
 ![alt text](image.png)
 
 Running it doesn't work
+
 ![alt text](image-1.png)
 
 When trying to open with IDA we get these messages:
+
 ![alt text](image-2.png)
 ![alt text](image-3.png)
 
 
 Checking with PETools:
+
 ![alt text](image-4.png)
 
 The .text section has a Raw Offset of FFFFFFFF, probably the source of the previous errors. To fix it we can use a hex editor and find the .text section header
+
 ![alt text](image-6.png)
 ![alt text](image-5.png)
 
 According to the PE format, the pointer to the raw data should be at offset 20. We can find the bytes FF FF FF FF there.
 From PETools we know that the raw size is 1200, so we set the pointer value to the pointer of the next section - 1200 = 400
+
 ![alt text](image-7.png)
 
 after this we can run the file
+
 ![alt text](image-8.png)
 
 Now decompiling in IDA we find the following function:
@@ -86,9 +93,10 @@ int sub_1400010E0()
   return sub_140001200((unsigned __int64)&v9 ^ v19);
 }
 ```
-yet another annoying xor mess :)))
+xor :)))
 
 We need the values at 1400032C0, 1400032D0 1400032E0 1400032F0 
+
 ![alt text](image-9.png)
 
 now we can reconstruct the flag
